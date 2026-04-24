@@ -11,7 +11,7 @@
         android:title="@string/nav_add"/>
 
     <item
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_list"
         android:icon="@drawable/ic_list_outline_24"
         android:title="@string/nav_inventory"/>
 

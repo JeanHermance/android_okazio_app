@@ -15,7 +15,7 @@
         <item>--Sélectionner un état--</item>
         <item>Bon</item>
         <item>Mauvais</item>
-        <item>Abimé</item>
+        <item>Abime</item>
     </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

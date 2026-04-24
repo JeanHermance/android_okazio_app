@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,41 +10,42 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
             android:padding="10dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_designation"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
+
             <EditText
+                android:id="@+id/designation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/designation"
-                android:background="@drawable/border"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:padding="12dp"
+                android:background="@drawable/border"
                 android:hint="@string/hint_designation"
-                android:textSize="16sp"
+                android:inputType="text"
                 android:labelFor="@+id/designation"
-                android:inputType="text"/>
+                android:padding="12dp"
+                android:textSize="16sp" />
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_etat"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
             <!-- Liste déroulante -->
             <Spinner
                 android:id="@+id/etat"
@@ -52,14 +54,14 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/border"
-                android:padding="12dp"
-                android:entries="@array/etat_items"/>
+                android:entries="@array/etat_items"
+                android:padding="12dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_quantite"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
             <!-- Input numérique -->
             <EditText
                 android:id="@+id/quantite"
@@ -68,31 +70,33 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/border"
-                android:inputType="number"
                 android:hint="@string/hint_quantite"
-                android:textSize="16sp"
-                android:padding="12dp"/>
+                android:inputType="number"
+                android:padding="12dp"
+                android:textSize="16sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:text="@string/btn_enregistrer"
-                android:background="@drawable/border_primary"
-                android:textColor="@color/neutral"
                 android:id="@+id/saveButton"
-                android:textSize="18sp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"/>
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:text="@string/btn_annuler"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border_primary"
+                app:backgroundTint="@null"
+                android:text="@string/btn_enregistrer"
+                android:textColor="@color/neutral"
+                android:textSize="18sp" />
+
+            <Button
                 android:id="@+id/cancelButton"
-                android:textSize="18sp"
-                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
                 android:background="@drawable/border_cancel"
-                android:layout_marginBottom="10dp"/>
+                app:backgroundTint="@null"
+                android:text="@string/btn_annuler"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
