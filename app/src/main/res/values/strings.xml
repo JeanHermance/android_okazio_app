@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">O-kaz</string>
+    <string name="hint_quantite" translatable="false">Entrez une quantité</string>
+    <string name="hint_designation" translatable="false">Entrez une désignation</string>
+    <string name="label_etat" translatable="false">État:</string>
+    <string name="label_quantite" translatable="false">Quantité:</string>
+    <string name="label_designation" translatable="false">Désignation:</string>
+    <string name="btn_enregistrer" translatable="false">Enregistrer</string>
+    <string name="btn_annuler" translatable="false">Annuler</string>
+    <string name="nav_stat" translatable="false">Statistiques</string>
+    <string name="nav_add" translatable="false">Ajout Matériel</string>
+    <string name="nav_inventory" translatable="false">Inventaires</string>
+    <string name="add_descriprion" translatable="false">add</string>
+    <string-array name="etat_items">
+        <item>--Sélectionner un état--</item>
+        <item>Bon</item>
+        <item>Mauvais</item>
+        <item>Abimé</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

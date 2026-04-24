@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_stat"
+        android:icon="@drawable/ic_stats_outline_24"
+        android:title="@string/nav_stat"/>
+
+    <item
+        android:id="@+id/nav_add"
+        android:icon="@drawable/ic_add_24"
+        android:title="@string/nav_add"/>
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_list_outline_24"
+        android:title="@string/nav_inventory"/>
+
+</menu>

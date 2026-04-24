@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Okazio" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/neutral</item>
+        <item name="colorPrimaryVariant">@color/primary</item>"
+        <item name="colorOnPrimaryContainer">@color/primary</item>
+
+        <item name="colorSurface">@color/neutral</item>
+        <!-- Secondary brand color-->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+
+    </style>
+
+    <style name="Theme.Okazio" parent="Base.Theme.Okazio" />
+
+    <style name="CustomActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/tertiary</item>
+        <item name="android:width">44dp</item>
+        <item name="android:height">44dp</item>
+    </style>
+</resources>
